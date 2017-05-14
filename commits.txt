@@ -1,0 +1,17 @@
+commit 537b24107da915f42800bba76ab89d79201de421
+Author: july83 <julycf83@gmail.com>
+Date:   Sun May 14 12:17:48 2017 +0200
+
+    primera modificacion
+
+commit 3477a79b9a27e92607b99d67c901dc623a090b4f
+Author: july83 <julycf83@gmail.com>
+Date:   Sun May 14 12:17:05 2017 +0200
+
+    primera modificacion
+
+commit 0e6f342901cace71a3882358938410bf6dc5ba5b
+Author: july83 <julycf83@gmail.com>
+Date:   Sun May 14 12:09:22 2017 +0200
+
+    primer guardado inicial
