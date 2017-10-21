@@ -264,6 +264,48 @@ header {
 	right: 0;
 }
 
+/*.tituloImgInicio {
+ color: #ffffff ;
+ font-family: Overpass-Black;
+ width: 209; 
+ position:absolute;
+ top:45%;
+ left:50%;
+ margin: 0 0 0 -104px;
+ animation: intro1 .7s;   
+   
+}
+
+.subtituloImgInicio {
+ color: #ffffff ;
+ font-family: Overpass-Black;
+ width: 442; 
+ position:absolute;
+ top:55%;
+ left:50%;
+ margin: 0 0 0 -221px;
+ animation: intro2 .7s;   
+   
+}*/
+
+@keyframes intro1 {
+ 
+    0% {
+    opacity: 0;
+    transform:translate3d(-100%, 0 , 0) scale(.9)
+    }
+
+}
+
+@keyframes intro2 {
+ 
+    0% {
+    opacity: 0;
+    transform:translate3d(100%, 0 , 0) scale(.9)
+    }
+
+}
+
 /****************************** Estilos galerias *****************************/
 .sinpadding [class*="col-"]{
 	padding: 0;
