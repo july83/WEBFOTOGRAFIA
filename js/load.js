@@ -146,7 +146,7 @@ $(document).ready(function() {
 	var anchoPantalla = screen.width;
 	
 	
-	var tituloImgInicio = $('.tituloImgInicio').width();
+	/*var tituloImgInicio = $('.tituloImgInicio').width();
 	var subtituloImgInicio = $('.subtituloImgInicio').width();
 	var tituloImgInicio2 = $('.tituloImgInicio2').width();
 	var subtituloImgInicio2 = $('.subtituloImgInicio2').width();
@@ -165,7 +165,7 @@ $(document).ready(function() {
 	
 	$('.subtituloImgInicio2').animate({
           'margin-right':  (anchoPantalla - subtituloImgInicio2 - 16 )/2 
-	},1500);
+	},1500);*/
 
 	
 });
