@@ -723,15 +723,16 @@ footer div div a  img{
         right: 0;
     }
     
+     .margenEmailXs {
+        margin-top: 40px;
+    }
+    
     /* Footer */
     
     .textoFooter {
         text-align: center;
     }
     
-    .margenEmailXs {
-        margin-top: 40px;
-    }
     
     .listaRedes{
         text-align: center;
@@ -757,7 +758,31 @@ footer div div a  img{
 /* Tamaño sm */
 
 @media (min-width: 768px) and (max-width: 991px){
-	
+    
+    
+	/* Footer */
+    
+    .textoFooter {
+        text-align: center;
+    }
+    
+    .listaRedes{
+        text-align: center;
+    }
+    
+    .listaRedes a img{
+        width: 25px;
+    }
+    
+    .myfooter > div {
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    
+    .divFoo1, .divFoo2 {
+        height: auto;
+        margin-top: 15px;
+    }
 }
 
 
