@@ -541,7 +541,8 @@ header {
 }*/
 
 .contenedorContacto {
-	margin-bottom: 8%;
+	/*margin-bottom: 8%;*/
+    margin-bottom: 120px;
 }
 
 .contenedorContacto1 {
@@ -646,13 +647,11 @@ label {
 }
 
 .textoFooter {
-	/*text-align: center;*/
 	color: #96a592;
 }
 
 
 footer div div a  img{
-	width: 15%;
 	right: 0;
 	
 }
@@ -759,6 +758,11 @@ footer div div a  img{
 
 @media (min-width: 768px) and (max-width: 991px){
     
+     /* Contacto */
+    .contenedorContacto {
+        margin-bottom: 30px;
+    }
+    
     
 	/* Footer */
     
@@ -783,6 +787,46 @@ footer div div a  img{
         height: auto;
         margin-top: 15px;
     }
+}
+
+
+/* Tamaño md */
+
+@media (min-width: 992px) and (max-width: 1199px){
+    
+    
+	/* Footer */
+    
+    .textoFooter {
+        height: 30px;
+        margin-bottom: 0;
+        padding-top: 6px;
+    }
+
+    .listaRedes a img{
+        width: 30px;
+    } 
+   
+}
+
+/* Tamaño lg */
+
+@media (min-width: 1200px){
+    
+    
+	/* Footer */
+    
+    .textoFooter {
+        height: 30px;
+        margin-bottom: 0;
+        padding-top: 8px;
+    }
+
+    .listaRedes a img{
+        width: 35px;
+        
+    } 
+   
 }
 
 
