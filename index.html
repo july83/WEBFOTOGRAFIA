@@ -12,6 +12,7 @@
       	<link href="favicon.ico" type="image/x-icon" rel="shortcut icon" />
 		<link rel="stylesheet" href= "css/style.css">
 		<link rel="stylesheet" href= "css/ihover.css">
+        <link rel="stylesheet" href= "css/pruebaMenu.css">
 		
 
 	</head>
@@ -23,17 +24,17 @@
    		<div class="container-fluid myContainderFluid">
    			
             
-            <nav class="navbar-default myNavbar" role="navigation" id="ejemplo">
+            <!--<nav class="navbar-default myNavbar" role="navigation" id="ejemplo">
             	<div class="col-md-1 col-lg-1 col-xs-1 col-sm-1 colSinPadding "></div>
                 <div class="col-md-10 col-lg-10 col-sm-10  col-xs-10 colSinPadding">
 					<div class="navbar-header anchoHeader">
-					<a class="navbar-brand colSinPadding " href="#home">
-						<img id="logo1" src="img/iconos/logo1.png">
-					</a>
-					<a class="navbar-brand colSinPadding " href="#home">
-						<img id="logo2" src="img/iconos/logo2.png" style="display:none">
-					</a>
-					  	<button type="button" class="navbar-toggle myBotonToggle" data-toggle="collapse" data-target="#acolapsar" onMousedown="changeImage()">
+                        <a class="navbar-brand colSinPadding " href="#home">
+                            <img id="logo1" src="img/iconos/logo1.png">
+                        </a>
+                        <a class="navbar-brand colSinPadding " href="#home">
+                            <img id="logo2" src="img/iconos/logo2.png" style="display:none">
+                        </a>
+					  	<button type="button" class="navbar-toggle myBotonToggle" data-toggle="collapse" data-target="#acolapsar">
                             <span class="sr-only">Cambiar navegacion</span>
                             <span class="icon-bar myIconoBar"></span>
                             <span class="icon-bar myIconoBar"></span>
@@ -42,52 +43,119 @@
 					</div>
 					
 					<div class="collapse navbar-collapse colSinPadding" id="acolapsar">
-						<!--<div class="collapse navbar-collapse colSinPadding paddingUlMenu" id="acolapsar">	-->
-							<ul id="menuHover" class="nav navbar-nav ulMenu menuResponsive">
-								<li class="active"><a href="#home">Home</a></li>
-								<li><a href="#porfolio">Porfolio</a></li>
-								<li><a href="#sobremi">Sobre mí</a></li>
-								<li><a href="#contacto">Contacto</a></li>
-						  	</ul>
-
-
-						<!--</div> -->
+                        <ul id="menuHover" class="nav navbar-nav ulMenu menuResponsive">
+                            <li class="active"><a href="#home">Home</a></li>
+                            <li><a href="#porfolio">Porfolio</a></li>
+                            <li><a href="#sobremi">Sobre mí</a></li>
+                            <li><a href="#contacto">Contacto</a></li>
+                        </ul>
 					</div>
 				</div>
 				<div class="col-md-1 col-lg-1 col-xs-1 col-sm-1 colSinPadding anchoMenu"></div>
-			</nav>
+			</nav>-->
+            
 
 			<!-- Bloque carrusel -->
 			
-				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="width: 100%;height: 100%;">
+				<!--<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="width: 100%;height: 100%;">
 
 
-				  <!-- Wrapper for slides -->
+			
 				<div class="carousel-inner" style="width: 100%;height: 100%;">
 
 					<div class="item active imgSlider1" style="width: 100%;height: 100%;">
-						<!--<div class=" scrollflow  -slide-top -opacity">-->
 							<h1 class="tituloImgInicio">EMOCIONES</h1>
 							<h2 class="subtituloImgInicio">FOTOGRAFÍA DEL SENTIMIENTO</h2>
-						<!--</div>-->
 						
 					</div>
 					<div class="item imgSlider2" style="width: 100%;height: 100%;">
 						<h1 class="tituloImgInicio2">HOLA</h1>
 						<h2 class="subtituloImgInicio2">HOLA</h2>
 					</div>
-					<!--<div class="item imgSlider3" style="width: 100%;height: 100%;">
-						
-					</div>
-					<div class="item imgSlider4" style="width: 100%;height: 100%;">
-						
-					</div>-->
+
 
 				</div>
 				
 				  <div class="divPosicionMenu sprite-anim-go" id="porfolio"><a href="#porfolio"></a></div>
 				  
-				</div> 
+				</div> -->
+            
+            
+            
+            
+            
+            
+     
+            <div class="col-md-1 col-lg-1 hidden-xs col-sm-1 colSinPadding "></div>
+            <div class="col-md-10 col-lg-10 col-sm-10  col-xs-12 anchoHeader colSinPadding">
+                <input type="checkbox" id="hamburguer">  
+                <label for="hamburguer" class="hamburguerBtn"></label>
+                 <a href="#home" class="navbar-brand logoHamburguesa">
+                    <img src="img/iconos/logo1.png">
+                </a>
+                <nav class="navmain">
+
+                    <a href="#home" class="navbar-brand logoHamburguesaDes">
+                        <img src="img/iconos/logo1.png">
+                    </a>
+
+                    <ul>
+                        <li class="active"><a href="#home">Home</a></li>
+                        <li><a href="#porfolio">Porfolio</a></li>
+                        <li><a href="#sobremi">Sobre mí</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                    
+                    <div class="listaRedesHamburguer">
+                        <a href="#" rel="external">		
+                            <img src="img/redesSociales/facebook_on.svg" alt="facebook" />
+                        </a>
+
+                        <a href="#" rel="external">
+                            <img src="img/redesSociales/instagram_on.svg" alt="facebook" />
+                        </a>
+
+                        <a href="#" rel="external">
+                            <img src="img/redesSociales/linkedin_on.svg" alt="facebook" />
+					   </a>
+				    </div>
+
+
+
+                </nav>
+            </div>
+            <div class="col-md-1 col-lg-1 hidden-xs col-sm-1 colSinPadding anchoMenu"></div>
+            
+            <div id="carousel-example-generic" class="carousel slide myNavbar2" data-ride="carousel" style="width: 100%;height: 100%;">
+				
+                <div class="carousel-inner" style="width: 100%;height: 100%;">
+
+                    <div class="item active imgSlider1" style="width: 100%;height: 100%;">
+
+                            <h1 class="tituloImgInicio">EMOCIONES</h1>
+                            <h2 class="subtituloImgInicio">FOTOGRAFÍA DEL SENTIMIENTO</h2>
+
+
+                    </div>
+                    <div class="item imgSlider2" style="width: 100%;height: 100%;">
+                        <h1 class="tituloImgInicio2">HOLA</h1>
+                        <h2 class="subtituloImgInicio2">HOLA</h2>
+                    </div>
+
+
+                </div>
+
+              <div class="divPosicionMenu sprite-anim-go" id="porfolio"><a href="#porfolio"></a></div>
+				  
+            </div> 
+            
+            
+            
+            
+            
+            
+            
+            
    		
    				
     		

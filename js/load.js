@@ -7,37 +7,36 @@ $(document).ready(function() {
 	
 	
 	
-	   var scroll_start = 0;
-   //var startchange = $('#startchange');
-   //var offset = startchange.offset();
+    /*var scroll_start = 0;
 	var ee = $('ejemplo');
 	var div_alto = $("#carousel-example-generic").height();
 	$(".icon-bar").css('background-color', '#ffffff');
-    //if (startchange.length){
+
 	
-   $(document).scroll(function() { 
-      scroll_start = $(this).scrollTop();
-      if(scroll_start > (div_alto - 85)) {
-          $(".navbar-default").css({'background-color':'#ffffff', 'transition' : '1s', 'opacity' : '0.8'});
-		  $("#ejemplo").css('position' , 'fixed');
-		  $("#logo1").hide();
-		  $("#logo2").show();
-		  /*$(".paddingUlMenu > ul > div > li > a").css('color', '#404a3d');*/
-		  $("#menuHover > li > a").css('color', '#404a3d');
-		  $(".icon-bar").css('background-color', '#888');
-		  
-       } else {
-		  $('.navbar-default').css({'background-color': 'transparent' , 'transition' : 'none'});
-	      $("#ejemplo").css({'position' : 'absolute', 'z-index' : '999'});
-	      $("#logo2").hide();
-		  $("#logo1").show();
-		  /*$(".paddingUlMenu > ul > div > li > a").css('color', '#ffffff');*/
-		   $("#menuHover > li > a").css('color', '#ffffff');
-		   $(".icon-bar").css('background-color', '#ffffff');
-       }
-	   
-   });
-   // }
+       $(document).scroll(function() { 
+          scroll_start = $(this).scrollTop();
+          if(scroll_start > (div_alto - 85)) {
+              $(".navbar-default").css({'background-color':'#ffffff', 'transition' : '1s', 'opacity' : '0.8'});
+              $("#ejemplo").css('position' , 'fixed');
+              $("#logo1").hide();
+              $("#logo2").show();
+              $("#menuHover > li > a").css('color', '#404a3d');
+              $(".icon-bar").css('background-color', '#888');
+
+           } else {
+              $('.navbar-default').css({'background-color': 'transparent' , 'transition' : 'none'});
+              $("#ejemplo").css({'position' : 'absolute', 'z-index' : '999'});
+              $("#logo2").hide();
+              $("#logo1").show();
+               $("#menuHover > li > a").css('color', '#ffffff');
+               $(".icon-bar").css('background-color', '#ffffff');
+           }
+
+       });*/
+    
+    
+    
+
 
 	var inputNombre = $("#inputnombre");
 	var labelNombre = $("#labelnombre");
@@ -166,26 +165,75 @@ $(document).ready(function() {
 	$('.subtituloImgInicio2').animate({
           'margin-right':  (anchoPantalla - subtituloImgInicio2 - 16 )/2 
 	},1500);
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    var scroll_start = 0;
+	var ee = $('ejemplo');
+	var div_alto = $("#carousel-example-generic").height();
+	$(".icon-bar").css('background-color', '#ffffff');
+    
+    
+    $(document).scroll(function() { 
+      scroll_start = $(this).scrollTop();
+      if(scroll_start > (div_alto - 85)) {
+          $(".miScroll").css({'background-color':'#ffffff', 'transition' : '1s', 'opacity' : '0.8'});
+		  $("#ejemplo").css('position' , 'fixed');
+		  $("#logo1").hide();
+		  $("#logo2").show();
+		  $("#menuHover > li > a").css('color', '#404a3d');
+		  $(".icon-bar").css('background-color', '#888');
+		  
+       } else {
+		  $('.miScroll').css({'background-color': 'transparent' , 'transition' : 'none'});
+	      $("#ejemplo").css({'position' : 'absolute', 'z-index' : '999'});
+	      $("#logo2").hide();
+		  $("#logo1").show();
+		   $("#menuHover > li > a").css('color', '#ffffff');
+		   $(".icon-bar").css('background-color', '#ffffff');
+       }
+	   
+   });
 
 	
 });
 
-
-/*var mi_imagen1=new Image
-mi_imagen1.src="http://www.tutores.org/tut/images/mundo.gif"
-var mi_imagen2=new Image
-mi_imagen2.src="http://www.tutores.org/tut/images/mundo2.gif"
-var i = 1;
-function changeImage() {
-
-	if(i == 1) {
-		document.images['prueba'].src=mi_imagen2.src;
-		i = 2;
-	} else {
-		document.images['prueba'].src=mi_imagen1.src;
-		i = 1;
-	}
-
-
-
-}*/	

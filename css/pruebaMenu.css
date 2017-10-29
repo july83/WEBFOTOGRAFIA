@@ -1,0 +1,294 @@
+.myNavbar2{ 
+	margin-bottom: 0px;
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+	background: transparent;
+    height: 100%;
+}
+
+
+
+#hamburguer {
+position: absolute;
+display: none;
+top: 10000px;
+left:10000px;    
+}
+
+
+
+label.hamburguerBtn {
+    width: 55px;
+    height: 55px;  
+    /*background-color:#fff;*/
+    background-image: url(../img/menu-button.svg);
+    background-size: 50%;    
+    background-repeat: no-repeat; 
+    background-position: center;  
+    border-radius: 180px;    
+    display: none;
+    position:fixed;
+    top: 10px;
+    right:10px;  
+    z-index: 99999;    
+    transition: all 0.4s;  
+    
+}
+
+.navmain {
+    top: 0;
+    left: 0;
+    height: 100%;    
+    text-align: center;    
+    z-index: 999;
+    transition: all 0.4s;   
+    position: fixed;
+}
+
+/*.navmain div li + li {
+border-top: 0.5px solid ;
+}*/
+
+/*.navmain div a {
+height: 60px;
+display: block;    
+text-decoration: none;
+text-transform: uppercase;
+line-height: 64px;   
+font-size: 18px;
+color:#fff; 
+transition: all 0.6s;    
+  
+}*/
+
+
+
+
+/*
+
+.navmain a:hover {
+
+}
+*/
+
+
+
+/*
+.navmain div a {
+    padding: 15px 0 15px 0;
+}
+
+.navmain div ul {
+    background: #F4F4F4;
+    border: 1px solid #7C7C7C;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    float: right;
+    margin-top: 25px;
+}
+
+.navmain div ul li {
+    display: inline;
+    margin-left: 35px;
+}
+
+.navmain div ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    height: 60px;
+display: block;    
+
+text-transform: uppercase;
+line-height: 64px;   
+font-size: 18px;
+
+transition: all 0.6s; 
+    
+    
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PEQUEÑO  */ 
+@media (min-width:0px) and (max-width:991px){
+
+    label.hamburguerBtn {
+    display: block; 
+    transform:translate3d(0,0,0); 
+
+    }
+
+    .hamburguerBtn div  { 
+        font-family: helvetica;
+        font-size: 16px;
+        position: absolute;
+        top:24px;
+        left:70px;
+        color:#fff;
+    } 
+
+    .navmain {
+        transform:translate3d(0,-100%,0);
+        width: 100%;
+        background: rgba(150, 165, 146, 0.9);
+        
+    }  
+    
+    .navmain ul {
+      
+        list-style: none;
+        top: 30%;
+        position:absolute;
+        padding: 0;
+        left: 0;
+        right: 0;
+        
+    }
+
+    .navmain ul li {
+        display: block;
+        
+    }
+
+    .navmain ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        height: 60px;
+        line-height: 64px;   
+        font-size: 18px;
+        transition: all 0.6s; 
+        
+    }
+
+    .navmain div li:first-child   {
+        padding: 60px 0 0 0;
+    } 
+
+    #hamburguer:checked ~ .navmain {
+    transform:translate3d(0,0,0); 
+
+    }   
+    
+    #hamburguer:checked ~ label.hamburguerBtn  {
+        background-image: url(../img/boton-cerrar.svg);
+    }    
+
+    .hamburguerBtn 
+     transform:translate3d(-100,0,0);   
+
+    #hamburguer:checked ~ .hamburguerBtn {
+    transform:translate3d(0,0,0); 
+
+    }     
+
+    .anchoHeader {
+        height: 100%;
+    }
+
+    .logoHamburguesaDes img {
+        top: 10%;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .logoHamburguesa {
+        position: fixed;
+        z-index: 9;
+    }
+    
+    .listaRedesHamburguer {
+        top: 70%;
+        left: 0;
+        right: 0;
+        position: absolute;
+    }
+    
+    .listaRedesHamburguer a img{
+        width: 40px;
+        margin: 5px;
+    }
+    
+    .listaRedesHamburguer a:hover{
+        text-decoration: none;
+    }
+    
+}
+    
+
+    
+/* GRANDE  */ 
+@media (min-width:992px) {
+
+    .navmain {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;    
+    text-align: center; 
+    }
+
+    .navmain a {
+        padding: 15px 0 15px 0;
+    }
+
+    .navmain ul {
+      
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        float: right;
+        float: right;
+        margin-top: 25px;
+    }
+
+    .navmain ul li {
+        display: inline;
+        margin-left: 35px;
+    }
+
+    .navmain ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        height: 60px;
+        line-height: 64px;   
+        font-size: 18px;
+        transition: all 0.6s; 
+    }
+    
+    .logoHamburguesa {
+        display: none;
+    }
+    
+    .listaRedesHamburguer{
+        display: none;
+    }
+}
+    
+
+    
+    
