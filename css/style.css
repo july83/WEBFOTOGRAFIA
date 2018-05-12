@@ -309,7 +309,7 @@ header {
 */
 
 /****************************** Estilos galerias *****************************/
-.sinpadding [class*="col-"]{
+/*.sinpadding [class*="col-"]{
 	padding: 0;
 	
 }
@@ -342,7 +342,7 @@ header {
 .myItem a:hover {
   opacity: 0.9 !important;
 	background: #96a592 !important;
-}
+}*/
 
 /*.info {
 	opacity: 0.9 !important;
@@ -380,6 +380,23 @@ header {
 	background-image: url('../img/Slider/foto4.jpg');2
 	background-position:center center;
 }
+
+
+
+
+
+
+
+/*Ejemplo Flex*/
+
+
+
+
+
+
+
+
+
 
 /****************************** Estilos sobre mi *****************************/
 

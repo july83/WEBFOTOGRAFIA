@@ -175,6 +175,7 @@ $(document).ready(function() {
     var scroll_start = 0;
 	
     var wrap = $("#navmain");
+    var ww = $('#ww');
     
     $(document).scroll(function() { 
         
@@ -182,18 +183,23 @@ $(document).ready(function() {
         
         if(scroll_start) {
           
-           wrap.addClass("fix-search");
+           wrap.addClass("menuScrollGrande");
+            ww.addClass("ww");
          
        } else {
            
-           wrap.removeClass("fix-search");
+           wrap.removeClass("menuScrollGrande");
+           ww.removeClass("ww");
        }
 	   
    });
     
-    /*$('.btnMenu').click(function() {
-        $('.navmain').css("transform","translate3d(0px, -100px, 0px)");
-    });*/
+    $('.btnMenu').click(function() {
+
+        $("#hamburguer").attr("checked",false);
+
+    
+    });
 
 	
 });
