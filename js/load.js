@@ -141,7 +141,7 @@ $(document).ready(function() {
     });
 	
 	
-
+/*
 	var anchoPantalla = screen.width;
 	
 	
@@ -168,7 +168,7 @@ $(document).ready(function() {
     
     
     
-    
+    */
 
     
     

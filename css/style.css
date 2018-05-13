@@ -245,12 +245,13 @@ header {
 }
 
 .tituloImgInicio, .tituloImgInicio2 {
-	
-	top: 45%;
+
+	margin-top: 10%;
 	color: #ffffff !important;
 	font-family: Overpass-Black;
-	position: absolute;
+	/*position: absolute;*/
 	margin-left: 0;
+	text-align: center;
 
 
 }
@@ -260,8 +261,9 @@ header {
 	top: 65%;
 	color: #ffffff !important;
 	font-family: Overpass-Black;
-	position: absolute;
+	/*position: absolute;*/
 	right: 0;
+	text-align: center;
 }
 
 /*
