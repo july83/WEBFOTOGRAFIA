@@ -244,7 +244,7 @@ header {
 	}
 }
 
-.tituloImgInicio, .tituloImgInicio2 {
+.tituloImgInicio {
 
 	margin-top: 10%;
 	color: #ffffff !important;
@@ -256,7 +256,7 @@ header {
 
 }
 
-.subtituloImgInicio, .subtituloImgInicio2 {
+.subtituloImgInicio {
 	
 	top: 65%;
 	color: #ffffff !important;
@@ -264,6 +264,13 @@ header {
 	/*position: absolute;*/
 	right: 0;
 	text-align: center;
+}
+
+.myhAnimated {
+	-webkit-animation-duration: 2s !important;
+	animation-duration: 2s !important;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
 }
 
 /*
