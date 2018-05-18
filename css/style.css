@@ -246,7 +246,8 @@ header {
 
 .tituloImgInicio {
 
-	margin-top: 10%;
+	top: 65%;
+	position: relative;
 	color: #ffffff !important;
 	font-family: Overpass-Black;
 	/*position: absolute;*/
@@ -259,6 +260,7 @@ header {
 .subtituloImgInicio {
 	
 	top: 65%;
+	position: relative;
 	color: #ffffff !important;
 	font-family: Overpass-Black;
 	/*position: absolute;*/
