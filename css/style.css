@@ -246,11 +246,11 @@ header {
 
 .tituloImgInicio {
 
-	top: 65%;
+	top: 83%;
 	position: relative;
 	color: #ffffff !important;
 	font-family: Overpass-Black;
-	/*position: absolute;*/
+	font-size: 25px;
 	margin-left: 0;
 	text-align: center;
 
@@ -259,11 +259,12 @@ header {
 
 .subtituloImgInicio {
 	
-	top: 65%;
+	top: 83%;
 	position: relative;
 	color: #ffffff !important;
 	font-family: Overpass-Black;
-	/*position: absolute;*/
+	font-size: 15px;
+	margin-top: 0px;
 	right: 0;
 	text-align: center;
 }
