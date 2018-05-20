@@ -7,15 +7,12 @@
     height: 100%;
 }
 
-
 #hamburguer {
 position: absolute;
 display: none;
 top: 10000px;
 left:10000px;    
 }
-
-
 
 label.hamburguerBtn {
     width: 55px;
@@ -28,11 +25,9 @@ label.hamburguerBtn {
     border-radius: 180px;    
     display: none;
     position:fixed;
-    /*top: 10px;*/
     right:10px;  
     z-index: 99999;    
-    transition: all 0.4s;  
-    
+    transition: all 0.4s;
 }
 
 .navmain {
@@ -45,15 +40,11 @@ label.hamburguerBtn {
     position: fixed;
 }
 
-
-
 /* PEQUEÑO  */ 
 @media (min-width:0px) and (max-width:991px){
-
     label.hamburguerBtn {
-    display: block; 
-    transform:translate3d(0,0,0); 
-
+        display: block;
+        transform:translate3d(0,0,0);
     }
 
     .hamburguerBtn div  { 
@@ -74,23 +65,19 @@ label.hamburguerBtn {
         transform:translate3d(0,-100%,0);
         width: 100%;
         background: rgba(150, 165, 146, 0.9);
-        
     }  
     
     .navmain ul {
-      
         list-style: none;
         top: 30%;
         position:absolute;
         padding: 0;
         left: 0;
         right: 0;
-        
     }
 
     .navmain ul li {
         display: block;
-        
     }
 
     .navmain ul li a {
@@ -102,7 +89,6 @@ label.hamburguerBtn {
         transition: all 0.6s; 
         width: 100%;
         position: relative;
-        
     }
     
     
@@ -121,36 +107,19 @@ label.hamburguerBtn {
     .navmain ul li a:focus:before {
       width:100%;
       transition:0.2s ease all;
-
     }
-    
-    
-    
-    
 
     .navmain div li:first-child   {
         padding: 60px 0 0 0;
     } 
 
     #hamburguer:checked ~ .navmain {
-        transform:translate3d(0,0,0); 
-
+        transform:translate3d(0,0,0);
     }   
     
     #hamburguer:checked ~ label.hamburguerBtn  {
         background-image: url(../img/boton-cerrar.svg);
     }    
-
-    /*.hamburguerBtn 
-     transform:translate3d(-100,0,0); */  
-
-    /*#hamburguer:checked ~ .hamburguerBtn {
-    transform:translate3d(0,0,0); 
-
-    }    */ 
-    
- 
-   
 
     .anchoHeader {
         height: 100%;
@@ -173,7 +142,7 @@ label.hamburguerBtn {
     }
     
     .listaRedesHamburguer {
-        top: 70%;
+        top: 75%;
         left: 0;
         right: 0;
         position: absolute;
@@ -193,7 +162,6 @@ label.hamburguerBtn {
         transition: 1s;
         opacity: 0.8;
         height: 64px;
-        /*display: block;*/
         position: fixed;
         width: 100%;
         z-index: 9;
@@ -204,7 +172,6 @@ label.hamburguerBtn {
     
 /* GRANDE  */ 
 @media (min-width:992px) {
-
     .navmain {
         width: 100%;
         box-sizing: border-box;
@@ -228,11 +195,9 @@ label.hamburguerBtn {
 
     .navmain a {
         padding: 0;
-        
     }
 
     .navmain ul {
-      
         list-style: none;
         margin: 0;
         padding: 0;
@@ -269,10 +234,8 @@ label.hamburguerBtn {
     .navmain ul li a:focus:before {
       width:100%;
       transition:0.2s ease all;
-
     }
-    
-    
+
     .logoHamburguesa {
         display: none;
     }
@@ -288,16 +251,8 @@ label.hamburguerBtn {
         display: none;
     }
 }
- 
-
-
-
-
 
 /*  Estilos Albumes  */
-
-
-
 .itemAlbum  img {
     max-width: 100%;
     height: 100%;
@@ -306,7 +261,6 @@ label.hamburguerBtn {
 }
 
 .wrapper {
-    /*width: 70%;*/
     margin: 1.5em auto;
 }
 
@@ -323,7 +277,6 @@ label.hamburguerBtn {
     display: inline-block;
     margin: 0 0 1.5em;
     width: 100%;
-
 }
 
 
@@ -337,7 +290,6 @@ label.hamburguerBtn {
     .wrapper {
         width: 80%;
     }
-
 }
 
 @media (min-width: 768px) and (max-width: 991px){
@@ -351,8 +303,6 @@ label.hamburguerBtn {
     }
 }
 
-
-
 @media (min-width: 992px){
      .masonry {
         -moz-column-count: 3;
@@ -363,19 +313,6 @@ label.hamburguerBtn {
         width: 60%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .itemAlbum {
     position: relative;
@@ -390,9 +327,7 @@ label.hamburguerBtn {
     text-decoration: none;
 }
 
-
 .itemAlbum .img {
-
     -webkit-transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     transition: all 0.35s ease-in-out;
@@ -402,7 +337,6 @@ label.hamburguerBtn {
     -o-transform: scale(1);
     transform: scale(1);
 }
-
 
 .itemAlbum a:hover .img {
     -webkit-transform: scale(1.2);
@@ -421,7 +355,6 @@ label.hamburguerBtn {
     text-align: center;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-
     background: #96a592;
     visibility: hidden;
     opacity: 0;
@@ -434,7 +367,6 @@ label.hamburguerBtn {
     visibility: visible;
     opacity: 0.8;
 }
-
 
 .itemAlbum .info h3 {
     text-transform: uppercase;
@@ -458,13 +390,10 @@ label.hamburguerBtn {
     -moz-transition: all 0.35s 0.1s linear;
     transition: all 0.35s 0.1s linear;
     margin: 0 0 10px;
-
     color: #ffffff !important;
     font-style: normal !important;
     padding-top: 0 !important;
 }
-
-
 
 .itemAlbum .info h3 {
     -webkit-transform: translateY(100%);
