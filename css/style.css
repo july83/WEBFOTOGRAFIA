@@ -395,21 +395,6 @@ header {
 
 
 
-
-
-
-
-/*Ejemplo Flex*/
-
-
-
-
-
-
-
-
-
-
 /****************************** Estilos sobre mi *****************************/
 
 .sobreMi {
@@ -739,6 +724,11 @@ footer div div a  img{
 /* Tamaño xs */
 
 @media (max-width: 767px) {
+	/* Slider */
+	.tituloImgInicio, .subtituloImgInicio{
+		top: 75%;
+	}
+
     
     /* Contacto */
     .contenedorContacto {
