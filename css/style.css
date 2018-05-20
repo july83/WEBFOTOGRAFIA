@@ -903,6 +903,7 @@ footer div div a  img{
 	margin-left: auto;
 	margin-right: auto;
 	z-index: 9;
+	top: 100%;
 }
 
 .sprite-anim-go a{
