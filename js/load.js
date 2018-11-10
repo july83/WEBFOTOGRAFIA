@@ -101,7 +101,7 @@ $(document).ready(function() {
     var scroll_start = 0;
     var wrap = $("#navmain");
     var ww = $('#ww');
-    
+
     $(document).scroll(function() { 
         
       scroll_start = $(this).scrollTop();
@@ -109,9 +109,13 @@ $(document).ready(function() {
         if(scroll_start) {
            wrap.addClass("menuScrollGrande");
             ww.addClass("ww");
+            $("#hamburguerBtnAlb").css({'background-image' : 'url(../img/boton-de-menu.svg)'});
+            $("#logoHamburguesaAlb").css({'background-image' : 'url(../img/iconos/logo1.png)','width':'200px','height':'41px','background-repeat':'no-repeat','top':'12.5px'});
        } else {
            wrap.removeClass("menuScrollGrande");
            ww.removeClass("ww");
+            $("#hamburguerBtnAlb").css({'background-image' : 'url(../img/boton-de-menu-negro.svg)'});
+            $("#logoHamburguesaAlb").css({'background-image' : 'url(../img/iconos/logo2.png)','width':'200px','height':'41px','background-repeat':'no-repeat','top':'12.5px'});
        }
    });
     
