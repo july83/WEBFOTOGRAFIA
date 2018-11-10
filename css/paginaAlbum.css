@@ -159,6 +159,14 @@ label.hamburguerBtnAlb {
         width: 100%;
         z-index: 9;
     }
+
+    #logoHamburguesaAlb {
+        background-image: url(../img/iconos/logo2.png);
+        width: 200px;
+        height: 41px;
+        background-repeat: no-repeat;
+        top: 12.5px;
+    }
 }
 
 
@@ -183,13 +191,5 @@ label.hamburguerBtnAlb {
         z-index: 9;
         line-height: 64px;
         left: 0px;
-    }
-
-    #logoHamburguesaAlb {
-        background-image: url(../img/iconos/logo2.png);
-        width: 200px;
-        height: 41px;
-        background-repeat: no-repeat;
-        top: 12.5px;
     }
 }
