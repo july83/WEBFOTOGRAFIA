@@ -110,11 +110,17 @@ $(document).ready(function() {
            wrap.addClass("menuScrollGrande");
             ww.addClass("ww");
             $("#hamburguerBtnAlb").css({'background-image' : 'url(../img/boton-de-menu.svg)'});
+            $("#anteriorTrabajo").css({'background-image' : 'url(../img/iconos/anterior_trabajo.png)'});
+            $("#siguienteTrabajo").css({'background-image' : 'url(../img/iconos/siguiente_trabajo.png)'});
+            $("#cerrarTrabajo").css({'background-image' : 'url(../img/iconos/cerrar_trabajo.png)'});
             $("#logoHamburguesaAlb").css({'background-image' : 'url(../img/iconos/logo1.png)','width':'200px','height':'41px','background-repeat':'no-repeat','top':'12.5px'});
        } else {
            wrap.removeClass("menuScrollGrande");
            ww.removeClass("ww");
             $("#hamburguerBtnAlb").css({'background-image' : 'url(../img/boton-de-menu-negro.svg)'});
+            $("#anteriorTrabajo").css({'background-image' : 'url(../img/iconos/anterior_trabajo_verde.png)'});
+            $("#siguienteTrabajo").css({'background-image' : 'url(../img/iconos/siguiente_trabajo_verde.png)'});
+            $("#cerrarTrabajo").css({'background-image' : 'url(../img/iconos/cerrar_verde.png)'});
             $("#logoHamburguesaAlb").css({'background-image' : 'url(../img/iconos/logo2.png)','width':'200px','height':'41px','background-repeat':'no-repeat','top':'12.5px'});
        }
    });

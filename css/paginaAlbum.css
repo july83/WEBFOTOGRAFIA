@@ -167,6 +167,56 @@ label.hamburguerBtnAlb {
         background-repeat: no-repeat;
         top: 12.5px;
     }
+
+    /* CONTROLES ALBUMES */
+    .controlTrabajos {
+        margin-left: auto;
+        margin-right: auto;
+        width: 60px;
+        height: 64px;
+     /*   position: fixed;*/
+    }
+
+    #anteriorTrabajo {
+        background-image: url(../img/iconos/anterior_trabajo_verde.png);
+        width: 20px;
+        height: 20px;
+        background-repeat: no-repeat;
+        top: 20px;
+        margin-left: 0%;
+        position: fixed;
+        z-index: 9;
+        line-height: 64px;
+        background-position: left;
+    }
+
+    #siguienteTrabajo {
+        background-image: url(../img/iconos/siguiente_trabajo_verde.png);
+        width: 20px;
+        height: 20px;
+        background-repeat: no-repeat;
+        top: 20px;
+        margin-left: 40px;
+        position: fixed;
+        z-index: 9;
+        line-height: 64px;
+        background-position: right;
+    }
+
+    #cerrarTrabajo {
+        background-image: url(../img/iconos/cerrar_verde.png);
+        width: 20px;
+        height: 20px;
+        background-repeat: no-repeat;
+        top: 20px;
+        margin-left: 20px;
+        position: fixed;
+        z-index: 9;
+        line-height: 64px;
+        background-position: center;
+    }
+
+
 }
 
 
@@ -192,4 +242,12 @@ label.hamburguerBtnAlb {
         line-height: 64px;
         left: 0px;
     }
+
+   /* .anteriorTrabajo {
+        margin-left: 50%;
+        position: fixed;
+        z-index: 9;
+        line-height: 64px;
+        left: 0px;
+    }*/
 }
