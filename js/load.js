@@ -113,7 +113,12 @@ $(document).ready(function() {
             $("#anteriorTrabajo").css({'background-image' : 'url(../img/iconos/anterior_trabajo.png)'});
             $("#siguienteTrabajo").css({'background-image' : 'url(../img/iconos/siguiente_trabajo.png)'});
             $("#cerrarTrabajo").css({'background-image' : 'url(../img/iconos/cerrar_trabajo.png)'});
-            $("#logoHamburguesaAlb").css({'background-image' : 'url(../img/iconos/logo1.png)','width':'200px','height':'41px','background-repeat':'no-repeat','top':'12.5px'});
+            if($(document).width() < 992) {
+                $("#logoHamburguesaAlb").css({'background-image' : 'url(../img/iconos/logo_solo_sinbolo_blanco.png)','width':'200px','height':'41px','background-repeat':'no-repeat','top':'12.5px'});
+			} else {
+                $("#logoHamburguesaAlb").css({'background-image' : 'url(../img/iconos/logo1.png)','width':'200px','height':'41px','background-repeat':'no-repeat','top':'12.5px'});
+			}
+
        } else {
            wrap.removeClass("menuScrollGrande");
            ww.removeClass("ww");
@@ -121,7 +126,11 @@ $(document).ready(function() {
             $("#anteriorTrabajo").css({'background-image' : 'url(../img/iconos/anterior_trabajo_verde.png)'});
             $("#siguienteTrabajo").css({'background-image' : 'url(../img/iconos/siguiente_trabajo_verde.png)'});
             $("#cerrarTrabajo").css({'background-image' : 'url(../img/iconos/cerrar_verde.png)'});
-            $("#logoHamburguesaAlb").css({'background-image' : 'url(../img/iconos/logo2.png)','width':'200px','height':'41px','background-repeat':'no-repeat','top':'12.5px'});
+            if($(document).width() < 992) {
+                $("#logoHamburguesaAlb").css({'background-image' : 'url(../img/iconos/logo_solo_sinbolo_verde.png)','width':'200px','height':'41px','background-repeat':'no-repeat','top':'12.5px'});
+            } else {
+                $("#logoHamburguesaAlb").css({'background-image' : 'url(../img/iconos/logo2.png)','width':'200px','height':'41px','background-repeat':'no-repeat','top':'12.5px'});
+			}
        }
    });
     
