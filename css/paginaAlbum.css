@@ -111,8 +111,9 @@ label.hamburguerBtnAlb {
     background-image: url(../img/boton-cerrar.svg) !important;
 }
 
-.anchoHeader {
-    height: 100%;
+.myContainderFluidAlb {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
 }
 
 .logoHamburguesaDes img {
@@ -131,19 +132,19 @@ label.hamburguerBtnAlb {
     left: 10px;
 }
 
-.listaRedesHamburguer {
+.listaRedesHamburguerAlb {
     top: 75%;
     left: 0;
     right: 0;
     position: absolute;
 }
 
-.listaRedesHamburguer a img{
+.listaRedesHamburguerAlb a img{
     width: 40px;
     margin: 5px;
 }
 
-.listaRedesHamburguer a:hover{
+.listaRedesHamburguerAlb a:hover{
     text-decoration: none;
 }
 
