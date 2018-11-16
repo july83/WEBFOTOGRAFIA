@@ -40,6 +40,17 @@ label.hamburguerBtn {
     position: fixed;
 }
 
+.textoAlbum {
+    height: 100px;
+    position: absolute;
+    /* vertical-align: 50% !important; */
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    top: 0;
+    bottom: 0;
+}
+
 /* PEQUEÑO  */ 
 @media (min-width:0px) and (max-width:991px){
     label.hamburguerBtn {
@@ -372,7 +383,7 @@ label.hamburguerBtn {
     text-transform: uppercase;
     color: #fff;
     text-align: center;
-    margin: 30% 0 0 0;
+    /*margin: 30% 0 0 0;*/
     padding: 10px;
     font-family: 'Overpass', sans-serif;
     font-size: 25px !important;
