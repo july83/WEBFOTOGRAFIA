@@ -385,7 +385,9 @@ label.hamburguerBtn {
     text-align: center;
     /*margin: 30% 0 0 0;*/
     padding: 10px;
-    font-family: 'Overpass', sans-serif;
+    margin-bottom: 0;
+    /*font-family: 'Overpass', sans-serif;*/
+    font-family: Overpass-Black;
     font-size: 25px !important;
     padding-bottom: 5px !important;
     -webkit-transition: all 0.35s ease-in-out;
@@ -404,6 +406,7 @@ label.hamburguerBtn {
     color: #ffffff !important;
     font-style: normal !important;
     padding-top: 0 !important;
+    font-family: Overpass-Regular;
 }
 
 .itemAlbum .info h3 {
