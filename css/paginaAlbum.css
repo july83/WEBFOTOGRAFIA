@@ -208,16 +208,42 @@ label.hamburguerBtnAlb {
 }
 
 
-
-
-/* PEQUEÑO  */
-@media (min-width:0px) and (max-width:991px){
+/* MUY PEQUEÑO (MOVIL) */
+@media (min-width:0px) and (max-width:399px){
     #logoHamburguesaAlb {
         background-image: url(../img/iconos/logo_solo_sinbolo_verde.png);
         width: 200px;
         height: 41px;
         background-repeat: no-repeat;
         top: 12.5px;
+    }
+
+    .tituloPaginaAlbum {
+        font-size: 30px !important;
+    }
+
+    .subtituloPaginaAlbum {
+        font-size: 10px !important;
+    }
+}
+
+
+/* PEQUEÑO  */
+@media (min-width:400px) and (max-width:991px){
+    #logoHamburguesaAlb {
+        background-image: url(../img/iconos/logo_solo_sinbolo_verde.png);
+        width: 200px;
+        height: 41px;
+        background-repeat: no-repeat;
+        top: 12.5px;
+    }
+
+    .tituloPaginaAlbum {
+        font-size: 40px !important;
+    }
+
+    .subtituloPaginaAlbum {
+        font-size: 15px !important;
     }
 
 }
@@ -283,6 +309,8 @@ label.hamburguerBtnAlb {
 
 .myContainer {
     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .marginFoto {
